@@ -1,0 +1,38 @@
+{
+  "name": "bathrugby-bot",
+  "version": "1.0.0",
+  "description": "A Telegram Bot that answers questions about Bath Rugby fixtures using IBM Watson conversation API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bobbyshaw/bathrugby_bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ibm",
+    "watson",
+    "bath",
+    "rugby"
+  ],
+  "author": "Tom Robertshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbyshaw/bathrugby_bot/issues"
+  },
+  "homepage": "https://github.com/bobbyshaw/bathrugby_bot#readme",
+  "dependencies": {
+    "dotenv": "2.0.0",
+    "http": "0.0.0",
+    "node-telegram-bot-api": "0.23.3",
+    "request-promise": "4.1.1",
+    "watson-developer-cloud": "2.2.0"
+  }
+}

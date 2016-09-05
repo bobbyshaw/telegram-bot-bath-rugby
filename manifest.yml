@@ -1,0 +1,5 @@
+---
+applications:
+- name:    bathrugby_bot
+  host:    bathrugby_bot
+  memory:  128M
