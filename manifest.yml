@@ -1,5 +1,5 @@
 ---
 applications:
 - name: 'Bath Rugby Bot'
-  host: bath-rugby-bot.eu-gb.mybluemix.net
+  host: bath-rugby-bot
   memory:   64MB
