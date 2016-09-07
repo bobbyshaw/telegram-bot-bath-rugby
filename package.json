@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/bobbyshaw/bathrugby_bot#readme",
   "dependencies": {
+    "dateformat": "1.0.12",
     "dotenv": "2.0.0",
-    "http": "0.0.0",
     "node-telegram-bot-api": "0.23.3",
     "request-promise": "4.1.1",
     "watson-developer-cloud": "2.2.0"
