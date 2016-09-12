@@ -1,0 +1,176 @@
+{
+    "data": [
+        {
+            "position": 1,
+            "team": {
+                "name": "Saracens"
+            },
+            "played": 2,
+            "won": 2,
+            "drawn": 0,
+            "lost": 0,
+            "for": 69,
+            "against": 16,
+            "bonus_points": 2,
+            "points": 10
+        },
+        {
+            "position": 2,
+            "team": {
+                "name": "Bath Rugby"
+            },
+            "played": 2,
+            "won": 2,
+            "drawn": 0,
+            "lost": 0,
+            "for": 76,
+            "against": 19,
+            "bonus_points": 1,
+            "points": 9
+        },
+        {
+            "position": 3,
+            "team": {
+                "name": "Wasps"
+            },
+            "played": 2,
+            "won": 2,
+            "drawn": 0,
+            "lost": 0,
+            "for": 59,
+            "against": 42,
+            "bonus_points": 1,
+            "points": 9
+        },
+        {
+            "position": 4,
+            "team": {
+                "name": "Northampton Saints"
+            },
+            "played": 2,
+            "won": 1,
+            "drawn": 0,
+            "lost": 1,
+            "for": 46,
+            "against": 28,
+            "bonus_points": 2,
+            "points": 6
+        },
+        {
+            "position": 5,
+            "team": {
+                "name": "Sale Sharks"
+            },
+            "played": 2,
+            "won": 1,
+            "drawn": 0,
+            "lost": 1,
+            "for": 36,
+            "against": 29,
+            "bonus_points": 1,
+            "points": 5
+        },
+        {
+            "position": 6,
+            "team": {
+                "name": "Leicester Tigers"
+            },
+            "played": 2,
+            "won": 1,
+            "drawn": 0,
+            "lost": 1,
+            "for": 60,
+            "against": 65,
+            "bonus_points": 1,
+            "points": 5
+        },
+        {
+            "position": 7,
+            "team": {
+                "name": "Harlequins"
+            },
+            "played": 2,
+            "won": 1,
+            "drawn": 0,
+            "lost": 1,
+            "for": 31,
+            "against": 38,
+            "bonus_points": 0,
+            "points": 4
+        },
+        {
+            "position": 8,
+            "team": {
+                "name": "Newcastle Falcons"
+            },
+            "played": 2,
+            "won": 1,
+            "drawn": 0,
+            "lost": 1,
+            "for": 24,
+            "against": 75,
+            "bonus_points": 0,
+            "points": 4
+        },
+        {
+            "position": 9,
+            "team": {
+                "name": "Gloucester Rugby"
+            },
+            "played": 2,
+            "won": 0,
+            "drawn": 1,
+            "lost": 1,
+            "for": 54,
+            "against": 61,
+            "bonus_points": 2,
+            "points": 4
+        },
+        {
+            "position": 10,
+            "team": {
+                "name": "Worcester Warrios"
+            },
+            "played": 2,
+            "won": 0,
+            "drawn": 1,
+            "lost": 1,
+            "for": 26,
+            "against": 58,
+            "bonus_points": 0,
+            "points": 2
+        },
+        {
+            "position": 11,
+            "team": {
+                "name": "Bristol Rugby"
+            },
+            "played": 2,
+            "won": 0,
+            "drawn": 0,
+            "lost": 2,
+            "for": 29,
+            "against": 53,
+            "bonus_points": 1,
+            "points": 1
+        },
+        {
+            "position": 12,
+            "team": {
+                "name": "Exeter Chiefs"
+            },
+            "played": 2,
+            "won": 0,
+            "drawn": 0,
+            "lost": 2,
+            "for": 33,
+            "against": 59,
+            "bonus_points": 1,
+            "points": 1
+        }
+    ],
+    "meta": {
+        "rel": "self",
+        "uri": "/table/aviva"
+    }
+}
