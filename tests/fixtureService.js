@@ -41,7 +41,7 @@ describe('The FixtureService component', function () {
         var requestStub = this.sandbox.stub(request, 'call');
         requestStub.returns(Promise.resolve(exampleResponse));
 
-        return service.fixture('bath rugby', null, false, true)
+        return service.fixture('bath rugby', [], false, true)
             .then(fixtures => {
                 assert.deepEqual(fixtures.length, 1);
 
@@ -63,7 +63,7 @@ describe('The FixtureService component', function () {
         var requestStub = this.sandbox.stub(request, 'call');
         requestStub.returns(Promise.resolve(exampleResponse));
 
-        return service.fixture('bath rugby', null, true, false)
+        return service.fixture('bath rugby', [], true, false)
             .then(fixtures => {
                 assert.deepEqual(fixtures.length, 1);
 
@@ -154,7 +154,7 @@ describe('The FixtureService component', function () {
         requestStub.returns(Promise.resolve(exampleResponse));
 
         /** @type {TablePosition} */
-        return service.result('bath rugby', null, true, false)
+        return service.result('bath rugby', [], true, false)
             .then(fixtures => {
                 assert.deepEqual(fixtures.length, 1);
 
@@ -177,7 +177,7 @@ describe('The FixtureService component', function () {
         requestStub.returns(Promise.resolve(exampleResponse));
 
         /** @type {TablePosition} */
-        return service.result('bath rugby', null, false, true)
+        return service.result('bath rugby', [], false, true)
             .then(fixtures => {
                 assert.deepEqual(fixtures.length, 1);
 
