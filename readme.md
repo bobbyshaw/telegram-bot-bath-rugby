@@ -1,6 +1,8 @@
 # Telegram Premiership Rugby Bot
 
 ![Travis](https://travis-ci.org/bobbyshaw/bathrugby_bot.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2b80a2431bd949298419db4bfb2a59d5)](https://www.codacy.com/app/tar20_154/bathrugby_bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bobbyshaw/bathrugby_bot&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2b80a2431bd949298419db4bfb2a59d5)](https://www.codacy.com/app/tar20_154/bathrugby_bot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bobbyshaw/bathrugby_bot&amp;utm_campaign=Badge_Coverage)
 
 This telegram chat bot will fetch results, fixture, and table information for Premiership Rugby teams.
 
