@@ -4,6 +4,7 @@
   "description": "A Telegram Bot that answers questions about Bath Rugby fixtures using IBM Watson conversation API",
   "main": "index.js",
   "scripts": {
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- tests/*",
     "test": "npm run test-unit",
     "test-unit": "NODE_ENV=test mocha 'tests/**/*.js'",
     "start": "node index.js"
@@ -39,6 +40,7 @@
     "watson-developer-cloud": "2.2.0"
   },
   "devDependencies": {
+    "istanbul": "0.4.5",
     "mocha": "3.0.2",
     "sinon": "1.17.5"
   },

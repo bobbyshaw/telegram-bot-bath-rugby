@@ -1,0 +1,488 @@
+{
+    "data": [
+        {
+            "home_team": {
+                "name": "Northampton Saints"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": "14",
+            "away_score": "18",
+            "location": "Franklin&#039;s Gardens",
+            "kickoff": "2016-09-03T14:30:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/northampton saints"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Newcastle Falcons"
+            },
+            "home_score": "58",
+            "away_score": "5",
+            "location": "Recreation Ground",
+            "kickoff": "2016-09-10T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/newcastle falcons"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Worcester Warriors"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2016-09-17T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/worcester warriors"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Leicester Tigers"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Welford Road",
+            "kickoff": "2016-09-25T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/leicester tigers"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Gloucester Rugby"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Kingsholm",
+            "kickoff": "2016-10-01T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/gloucester rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Sale Sharks"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2016-10-07T18:45:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/sale sharks"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Exeter Chiefs"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Sandy Park",
+            "kickoff": "2016-10-30T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/exeter chiefs"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Bristol Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2016-11-18T19:45:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bristol rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Harlequins"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Twickenham Stoop",
+            "kickoff": "2016-11-27T15:15:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/harlequins"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Saracens"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2016-12-03T12:15:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/saracens"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Wasps"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Ricoh Arena",
+            "kickoff": "2016-12-24T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/wasps"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Exeter Chiefs"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2016-12-31T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/exeter chiefs"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Newcastle Falcons"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Kingston Park",
+            "kickoff": "2017-01-08T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/newcastle falcons"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Northampton Saints"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2017-02-11T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/northampton saints"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Harlequins"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2017-02-18T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/harlequins"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bristol Rugby"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Ashton Gate",
+            "kickoff": "2017-02-24T19:45:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bristol rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Wasps"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2017-03-04T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/wasps"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Saracens"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Allianz Park",
+            "kickoff": "2017-03-25T15:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/saracens"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Leicester Tigers"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Twickenham Stadium",
+            "kickoff": "2017-04-08T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/leicester tigers"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Worcester Warriors"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Sixways",
+            "kickoff": "2017-04-15T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/worcester warriors"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "Bath Rugby"
+            },
+            "away_team": {
+                "name": "Gloucester Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "Recreation Ground",
+            "kickoff": "2017-04-29T14:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/gloucester rugby"
+                }
+            ]
+        },
+        {
+            "home_team": {
+                "name": "TBC: Sale Sharks"
+            },
+            "away_team": {
+                "name": "Bath Rugby"
+            },
+            "home_score": null,
+            "away_score": null,
+            "location": "AJ Bell Stadium",
+            "kickoff": "2017-05-06T00:00:00+00:00",
+            "links": [
+                {
+                    "rel": "home_team_fixtures",
+                    "uri": "/fixtures/aviva/tbc: sale sharks"
+                },
+                {
+                    "rel": "away_team_fixtures",
+                    "uri": "/fixtures/aviva/bath rugby"
+                }
+            ]
+        }
+    ]
+}
