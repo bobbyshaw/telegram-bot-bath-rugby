@@ -22,7 +22,7 @@ describe('The Fixture Ability component', function () {
 
         return ability.respond(message)
             .then(response => {
-                assert.deepEqual(response, 'Bath Rugby play Worcester Warriors on Saturday, 17th September, 14:00 at home.');
+                assert.deepEqual(response, 'Bath Rugby play Worcester Warriors on Saturday, 17th September, 15:00 at home.');
             })
             .catch(error => {
                 console.log(error);
