@@ -80,6 +80,6 @@ describe('The message component', function () {
             'Hi', null, null, [ent]
         );
 
-        assert.deepEqual(msg.getTeams(), ['sale sharks', 'bath rugby']);
+        assert.deepEqual(msg.getTeams(), ['sale sharks']);
     });
 });
