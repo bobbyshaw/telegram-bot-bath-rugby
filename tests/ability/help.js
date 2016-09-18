@@ -9,7 +9,7 @@ describe('The Help Ability component', function () {
 
     it('Get Help Ability Message', function () {
         var ability = new HelpAbility();
-        var message = new Message(null, null, null, null, null, { "team": "Bath Rugby"});
+        var message = new Message(null, null, null, null, null, { 'team': 'Bath Rugby'});
 
         return ability.respond(message)
             .then(response => {

@@ -9,6 +9,6 @@ describe('The Entity component', function () {
         var ent = new Entity('team', 'Bath Rugby');
 
         assert.equal(ent.type, 'team');
-        assert.equal(ent.value, 'Bath Rugby')
+        assert.equal(ent.value, 'Bath Rugby');
     });
 });

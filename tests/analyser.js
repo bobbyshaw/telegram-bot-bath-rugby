@@ -21,7 +21,7 @@ describe('The Message Analysis component', function () {
     });
 
     it('Analyse Message', function () {
-        var conversation = { message: function () {} };
+        var conversation = { message() {} };
 
         var requestStub = this.sandbox.stub(conversation, 'message');
         requestStub.yields(null, exampleResponse);
@@ -45,6 +45,6 @@ describe('The Message Analysis component', function () {
                 var entity = message.entities.shift();
                 assert.equal(entity.type, 'location');
                 assert.equal(entity.value, 'away');
-            })
+            });
     });
 });

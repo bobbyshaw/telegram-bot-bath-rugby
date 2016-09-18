@@ -18,29 +18,27 @@ describe('The Telegram component', function () {
         var spy = sinon.stub(bot.bot, 'on');
         spy.yields(
             {
-                "from": {
-                    "id": 1,
-                    "first_name": "Tom",
-                    "last_name": "Robertshaw",
-                    "username": "bobbyshaw"
+                'from': {
+                    'id': 1,
+                    'first_name': 'Tom',
+                    'last_name': 'Robertshaw',
+                    'username': 'bobbyshaw'
                 },
-                "chat": {
-                    "id": 1
+                'chat': {
+                    'id': 1
                 },
-                "message_id": 2,
-                "date": "",
-                "context": {"team": "bath rugby"},
-                "text": "Did we win?"
+                'message_id': 2,
+                'date': '',
+                'context': {'team': 'bath rugby'},
+                'text': 'Did we win?'
             }
         );
 
         bot.onTextMessage(function() {}, function(message) {
             assert.equal(
-                message.text, "Did we win?"
+                message.text, 'Did we win?'
             );
-        })
-
-
+        });
     });
 
     it('Send Message', function () {

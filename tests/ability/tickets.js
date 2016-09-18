@@ -9,7 +9,7 @@ describe('The Tickets Ability component', function () {
 
     it('Get Tickets Ability Message', function () {
         var ability = new TicketsAbility();
-        var message = new Message(null, null, null, null, null, { "team": "Bath Rugby"});
+        var message = new Message(null, null, null, null, null, { 'team': 'Bath Rugby'});
 
         return ability.respond(message)
             .then(response => {

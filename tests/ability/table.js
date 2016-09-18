@@ -11,7 +11,7 @@ describe('The Table Ability component', function () {
 
     it('Get Table Ability Message', function () {
         var ability = new TableAbility();
-        var message = new Message(null, null, null, null, null, { "team": "Bath Rugby"});
+        var message = new Message(null, null, null, null, null, { 'team': 'Bath Rugby'});
 
         var requestStub = this.sandbox.stub(TableService.prototype, 'getPositions');
         requestStub.returns(

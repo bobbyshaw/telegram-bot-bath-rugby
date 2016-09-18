@@ -25,8 +25,8 @@ describe('The message component', function () {
     it('Get Opposition in Message', function () {
         var ent = new Entity('Team', 'Sale Sharks');
         var msg = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
-            "Hi", null, null, [ent]
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
+            'Hi', null, null, [ent]
         );
 
         assert.deepEqual(msg.getOpposition(), ['sale sharks']);
@@ -35,12 +35,12 @@ describe('The message component', function () {
     it('Does message mention home?', function () {
         var ent = new Entity('Location', 'home');
         var msg = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
             "Hi", null, null, [ent]
         );
 
         var msg2 = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
             "Hi", null, null
         );
 
@@ -51,12 +51,12 @@ describe('The message component', function () {
     it('Does message mention away?', function () {
         var ent = new Entity('Location', 'away');
         var msg = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
             "Hi", null, null, [ent]
         );
 
         var msg2 = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
             "Hi", null, null
         );
 
@@ -66,7 +66,7 @@ describe('The message component', function () {
 
     it('Get message team context?', function () {
         var msg = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
             "Hi", null, null
         );
 
@@ -76,7 +76,7 @@ describe('The message component', function () {
     it('Get teams mentioned in message', function () {
         var ent = new Entity('Team', 'Sale Sharks');
         var msg = new Message(
-            'telegram', 1, 1, 1, null, {"team": "bath rugby"},
+            'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
             "Hi", null, null, [ent]
         );
 

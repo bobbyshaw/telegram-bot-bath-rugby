@@ -11,7 +11,7 @@ describe('The Result Ability component', function () {
 
     it('Get Result Ability Message', function () {
         var ability = new ResultAbility();
-        var message = new Message(null, null, null, null, null, { "team": "Bath Rugby"});
+        var message = new Message(null, null, null, null, null, { 'team': 'Bath Rugby'});
 
         var requestStub = this.sandbox.stub(FixtureService.prototype, 'result');
         requestStub.returns(

@@ -1,13 +1,13 @@
 'use strict';
 
 var http = require('http');
-var rugbybot = require('./lib/rugbybot');
-var webserver = require('./lib/webserver');
+var Rugbybot = require('./lib/rugbybot');
+var Webserver = require('./lib/webserver');
 
 var team = 'bath rugby';
-var bot = new rugbybot(team, true);
+var bot = new Rugbybot(team, true);
 bot.initialise();
 
 
-var server = new webserver();
+var server = new Webserver();
 server.start();

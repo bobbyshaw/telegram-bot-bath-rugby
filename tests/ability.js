@@ -8,7 +8,7 @@ describe('The Ability component', function () {
 
     it('Get Ability Message', function () {
         var ab = new Ability('test');
-        var message = new Message(null, null, null, null, null, { "team": "Bath Rugby"});
+        var message = new Message(null, null, null, null, null, { 'team': 'Bath Rugby'});
 
         return ab.respond(message)
             .then(response => {
