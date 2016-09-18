@@ -46,6 +46,5 @@
     "istanbul": "0.4.5",
     "mocha": "3.0.2",
     "sinon": "1.17.5"
-  },
-  "test-unit": "NODE_ENV=test mocha '/tests/*.js'"
+  }
 }
