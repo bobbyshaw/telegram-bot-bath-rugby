@@ -36,12 +36,12 @@ describe('The message component', function () {
         var ent = new Entity('Location', 'home');
         var msg = new Message(
             'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
-            "Hi", null, null, [ent]
+            'Hi', null, null, [ent]
         );
 
         var msg2 = new Message(
             'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
-            "Hi", null, null
+            'Hi', null, null
         );
 
         assert.isOk(msg.hasHome());
@@ -52,12 +52,12 @@ describe('The message component', function () {
         var ent = new Entity('Location', 'away');
         var msg = new Message(
             'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
-            "Hi", null, null, [ent]
+            'Hi', null, null, [ent]
         );
 
         var msg2 = new Message(
             'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
-            "Hi", null, null
+            'Hi', null, null
         );
 
         assert.isOk(msg.hasAway());
@@ -67,7 +67,7 @@ describe('The message component', function () {
     it('Get message team context?', function () {
         var msg = new Message(
             'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
-            "Hi", null, null
+            'Hi', null, null
         );
 
         assert.equal(msg.getTeam(), 'bath rugby');
@@ -77,7 +77,7 @@ describe('The message component', function () {
         var ent = new Entity('Team', 'Sale Sharks');
         var msg = new Message(
             'telegram', 1, 1, 1, null, {'team': 'bath rugby'},
-            "Hi", null, null, [ent]
+            'Hi', null, null, [ent]
         );
 
         assert.deepEqual(msg.getTeams(), ['sale sharks', 'bath rugby']);
