@@ -1,0 +1,12 @@
+{ "intents": [ { "intent": "next_fixture", "confidence": 0.889685663201285 } ],
+  "entities":
+   [ { "entity": "Team", "location": null, "value": "Leicester Tigers" },
+     { "entity": "Team", "location": null, "value": "Bath Rugby" },
+     { "entity": "location", "location": null, "value": "away" } ],
+  "input": { "text": "When do Bath play Leicester Tigers away?" },
+  "context":
+   { "conversation_id": "3ccf3efb-0e9a-4bb2-bbe2-617684b8a3bf",
+     "system":
+      { "dialog_stack": null,
+        "dialog_turn_counter": 1,
+        "dialog_request_counter": 1 } } }
