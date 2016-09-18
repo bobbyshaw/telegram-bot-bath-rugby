@@ -66,7 +66,7 @@ describe('The TableService component', function () {
                     }
                 }
 
-                if (positions.length != Object.keys(answers).length) {
+                if (positions.length !== Object.keys(answers).length) {
                     throw Error('Incorrect number of team positions returned');
                 }
             });

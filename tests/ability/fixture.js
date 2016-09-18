@@ -11,7 +11,7 @@ describe('The Fixture Ability component', function () {
 
     it('Get Fixture Ability Message', function () {
         var ability = new FixtureAbility();
-        var message = new Message(null, null, null, null, null, { "team": "Bath Rugby"});
+        var message = new Message(null, null, null, null, null, { 'team': 'Bath Rugby'});
 
         var requestStub = this.sandbox.stub(FixtureService.prototype, 'fixture');
         requestStub.returns(

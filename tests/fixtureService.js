@@ -287,7 +287,7 @@ describe('The FixtureService component', function () {
                 assert.deepEqual(fixture.homeTeamScore, 58);
                 assert.deepEqual(fixture.awayTeamScore, 5);
 
-                var fixture = fixtures.shift();
+                fixture = fixtures.shift();
                 assert.deepEqual(fixture.homeTeamId, 'northampton saints');
                 assert.deepEqual(fixture.homeTeamName, 'Northampton Saints');
                 assert.deepEqual(fixture.awayTeamId, 'bath rugby');
@@ -320,7 +320,7 @@ describe('The FixtureService component', function () {
                 assert.deepEqual(fixture.homeTeamScore, 58);
                 assert.deepEqual(fixture.awayTeamScore, 5);
 
-                var fixture = fixtures.shift();
+                fixture = fixtures.shift();
                 assert.deepEqual(fixture.homeTeamId, 'northampton saints');
                 assert.deepEqual(fixture.homeTeamName, 'Northampton Saints');
                 assert.deepEqual(fixture.awayTeamId, 'bath rugby');

@@ -38,11 +38,11 @@ describe('The Message Analysis component', function () {
                 assert.equal(entity.type, 'Team');
                 assert.equal(entity.value, 'Leicester Tigers');
 
-                var entity = message.entities.shift();
+                entity = message.entities.shift();
                 assert.equal(entity.type, 'Team');
                 assert.equal(entity.value, 'Bath Rugby');
 
-                var entity = message.entities.shift();
+                entity = message.entities.shift();
                 assert.equal(entity.type, 'location');
                 assert.equal(entity.value, 'away');
             });
