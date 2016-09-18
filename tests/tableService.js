@@ -12,7 +12,7 @@ describe('The TableService component', function () {
         assert(service.url, 'http://www.example.com');
     });
 
-    it('Get Team Positions', function () {
+    it('Get Specific Team Positions', function () {
         var service = new TableService('http://www.example.com');
 
         var requestStub = this.sandbox.stub(request, 'call');
