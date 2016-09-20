@@ -11,6 +11,10 @@ It uses [Drop22 API](https://api.drop22.net/) to fetch results, fixtures and tab
 
 Defaults to Bath Rugby 🔵⚫️⚪️.
 
+Example conversation:
+
+![Conversation](https://pbs.twimg.com/media/CszH7XPWIAAP7qy.jpg)
+
 ## Usage
 
 There are some environment variables that are expected.  Use `.env.example` to see what these are. Either ensure they are available or copy and complete into a `.env` file which will automatically be read.
